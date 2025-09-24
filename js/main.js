@@ -1,16 +1,37 @@
 
+//Define the symbols
+//Spin the reels
+    /* For each reel 
+        * Randomly choose one imposter from the list.
+    * Store the chosen symbols in an array */
+//Display the result
+   /* Show the three imposter to the player.*/
+//Check for winnings
+    /* If all three symbols match → Jackpot and play imposter sound.
+    * Else if any two symbols match → Small Win and play among us sound.
+    * Else → No win, try again.*/
+//Handle credits 
+    /* Start with 1000 credits.
+    * Subtract 5/50 credit each time the player spins.
+    * Add credits back if they win..different amounts for jackpot vs small win.*/
+//Repeat
+    /* Wait for the player to press "Spin" again.
+    * Go back to Step 2.*/
+
+//Justin Joshi helped with foundation of js code and i was able to work off what we started
 
 
 let imposter = document.querySelector(".imposter")
 let slots = document.querySelector(".slots")
-
 let slot1 = document.querySelector(".slot1")
 let slot2 = document.querySelector(".slot2")
 let slot3 = document.querySelector(".slot3")
+
+//sounds to be played on win
 let jackpotSound = new Audio('among-us-role-reveal-sound-effect-359833 copy.mp3');
 let smallWinSound = new Audio('among-us-accelerate-echo-337660.mp3');
 
-// Step 1: Decide the Symbols
+//  the icons for reels
 
 let crewmate = [
     'img/BlackTopHat.png',
