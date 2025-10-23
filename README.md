@@ -1,24 +1,55 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🕹️ Among Us Slot Machine 🎰
 
-### Goal: Build a Simple Slot Machine
+## 🎯 Goal
+Build a **simple slot machine** with:  
+- **3 reels**  
+- **At least 5 items per reel**  
+- Ability to **place a bet** (min or max)  
+- **Total balance updates** after each spin  
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+This version has a **fun Among Us theme**, featuring crewmates, impostors, and classic game references.  
 
-### How to submit your code for review:
+---
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## 🚀 Features
+- ✅ 3 animated reels with randomized results  
+- ✅ Minimum and maximum bet options  
+- ✅ Balance tracker that updates automatically  
+- ✅ Themed symbols inspired by *Among Us*  
+- ✅ Win or lose messages after each spin  
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+---
+
+## 🧠 How It Works
+1. The player starts with a set balance.  
+2. Choose a **Min Bet** or **Max Bet**.  
+3. Hit the **Spin** button to roll the reels.  
+4. If all three reels match — 🏆 you win!  
+5. Your balance increases or decreases based on your result.  
+
+---
+
+## 🧩 Tech Stack
+- **HTML** – Structure of the slot machine  
+- **CSS** – Styling and animations (Among Us visuals 🎨)  
+- **JavaScript** – Game logic, betting system, and random reel outcomes  
+
+---
+
+
+## 💡 Future Enhancements
+- Add sound effects and animations  
+- Display win multipliers for specific combinations  
+- Include custom themes or character unlocks  
+- Save user balance with `localStorage`  
+
+---
+
+## 🧑‍💻 Run the Project
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/among-us-slot.git
+
+# 2. Open the project
+cd among-us-slot
+open index.html  # or double-click index.html in your file explorer
